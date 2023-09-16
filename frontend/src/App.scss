@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
+
+#root {
+    width: 100%;
+}
+body {
+    font-size:1rem;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    background-color: #00262a;
+    color: rgb(77, 196, 243);
+}
+
+
+* {
+    box-sizing: border-box;
+    
+}
+h1 {
+
+    
+    text-align: center;
+}
+
+
+main {
+    margin-top: 5rem;
+}

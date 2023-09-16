@@ -1,0 +1,62 @@
+
+.event-list {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width: 95%;
+    margin-left:2.5%;
+    gap: 10px;
+}
+
+.event {
+    width: 100%;
+    background-color: #a0ced5b7;
+    box-sizing: border-box;
+    padding:10px;
+    margin-bottom:10px;
+    word-wrap: break-word;
+    border-radius: 5px;
+    border: 2px solid #0396A6;
+    color:black;
+    & img {
+        width: 90%;
+        margin-left:5%;
+        margin-top:10px;
+    }
+    & iframe {
+        width: 90%;
+        margin-left:5%;
+        margin-top:10px;
+    }
+    & button {
+        background-color: #0396A6;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top:10px;
+        margin-left:5%;
+        cursor: pointer;
+        border-radius: 5px;
+        &:hover {
+            background-color: #0d7a85;
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .event {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (min-width: 2048px) {
+    .event {
+        width: calc(25% - 10px);
+    }
+}
+    
